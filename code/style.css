@@ -1,0 +1,45 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.zones {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/CO_2021b.jpg);
+    background-size: cover;
+    justify-content: space-evenly;
+    
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    row-gap: 8vh;
+    column-gap: 10vw;
+    width: 50vw;
+    grid-template-columns: 8vh 8vh 8vh;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+button {
+    height: 8vh;
+    width: 8vh;
+}
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
